@@ -1,0 +1,19 @@
+{
+  "name": "purvi-indies-agent",
+  "version": "0.1.0",
+  "description": "A local-first agent runner for bundling tasks into one OpenAI call and executing them across projects and macOS apps.",
+  "type": "module",
+  "bin": {
+    "purvi": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "purvi": "node src/cli.js",
+    "test": "node --test",
+    "check": "node --check src/*.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "UNLICENSED"
+}
